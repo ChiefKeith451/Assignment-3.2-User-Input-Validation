@@ -1,0 +1,66 @@
+<!-- Name: Keith Vazquez -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Page title -->
+    <title>Strings Assignment</title>
+
+<!-- <!--creative elemnt -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #eef3ff;
+      }
+
+      h2 {
+        color: #223366;
+      }
+
+      .error {
+        color: red;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Main heading -->
+    <h2>Strings User Check</h2>
+
+    <!-- Simple instructions -->
+    <p>Enter your first name, last name and zip code to see the secret message.</p>
+
+    <!-- One form with all inputs and one submit button -->
+    <form id="userForm">
+
+      <!-- First name input -->
+      First Name:<br>
+      <input type="text" id="firstName">
+      <div id="firstNameError" class="error"></div>
+      <br>
+
+      <!-- Last name input -->
+      Last Name:<br>
+      <input type="text" id="lastName">
+      <div id="lastNameError" class="error"></div>
+      <br>
+
+      <!-- Zip code input -->
+      Zip Code:<br>
+      <input type="text" id="zipCode">
+      <div id="zipError" class="error"></div>
+      <br>
+
+      <!-- Submit button -->
+      <input type="submit" value="Submit">
+
+    </form>
+
+    <!-- Secret message goes here -->
+    <p id="secretArea"></p>
+
+    <!-- Link to JavaScript file -->
+    <script src="strings.js"></script>
+  </body>
+</html>
